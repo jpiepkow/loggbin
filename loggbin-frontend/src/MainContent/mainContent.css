@@ -1,0 +1,103 @@
+.mainC {
+	height: calc(100% - 70px);
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+pre {
+	background-color: #f5f5f5;
+	width: 100%;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+.pad {
+	padding-top: 20px;
+}
+.flex-full {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.left {
+	align-self: flex-start;
+}
+.flex-wrap-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+.big {
+	font-weight: 900;
+	font-size: 30px;
+}
+.bold {
+	font-weight: 900;
+}
+.info-flex {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+	height: 100%;
+	width: 75%;
+}
+.wrap {
+	margin-top: 2px;
+	width: 100%;
+	min-height: 30px;
+	display: flex;
+}
+.colorBall {
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 5%;
+}
+.circleGroup {
+	cursor: pointer;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+	background-color: red;
+	/* width and height can be anything, as long as they're equal */
+}
+.row {
+	flex: 0 0 95%;
+	display: flex;
+	align-items: center;
+}
+.log-text {
+	color: black;
+}
+.error-text {
+	color:white;
+}
+.warn-text {
+	color:white;
+}
+.info-text {
+	color:white;
+}
+.log {
+	background-color: rgb(247,247,247);
+	color: black;
+}
+.error {
+	background-color: rgb(217,83,79);
+	color: white;
+}
+.warn {
+	background-color: rgb(240,173,78);
+	color: white;
+}
+.info {
+	background-color: rgb(41,43,44);
+	color: white;
+}
